@@ -52,10 +52,10 @@ def index(a, x):
 
            
 grandma = new_person()
-grandpha = new_person()
-mom = kids_genetic_info(grandma, grandpha)
+grandpa = new_person()
+mom = kids_genetic_info(grandma, grandpa)
 dad = new_person()
-moms_sister = kids_genetic_info(grandma, grandpha)
+moms_sister = kids_genetic_info(grandma, grandpa)
 me = kids_genetic_info(mom, dad)
 
 print(percent_in_common(mom, me))
